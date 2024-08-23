@@ -59,9 +59,9 @@ class HomeScreen extends StatelessWidget {
         ),
         drawer: const HomeDrawer(),
         floatingActionButton: FloatingActionButton(
-          mini: true,
+          // mini: true,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10),
+            borderRadius: BorderRadius.circular(15),
           ),
           onPressed: () {
             Navigator.pushNamed(context, CartScreen.routeName);
@@ -70,7 +70,7 @@ class HomeScreen extends StatelessWidget {
           child: const Icon(
             Icons.shopping_cart,
             color: Colors.white,
-            size: 24,
+            size: 30,
           ),
         ));
   }

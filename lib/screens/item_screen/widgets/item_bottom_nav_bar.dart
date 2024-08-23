@@ -14,7 +14,7 @@ class ItemBottomNavBar extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Row(
-          // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             const Text(
               'Total:',
@@ -23,7 +23,7 @@ class ItemBottomNavBar extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const SizedBox(width: 10),
+            // const SizedBox(width: 10),
             const Text(
               '\$ 20.00',
               style: TextStyle(

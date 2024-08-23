@@ -16,7 +16,7 @@ class HomeDrawer extends StatelessWidget {
             child: UserAccountsDrawerHeader(
               currentAccountPictureSize: Size.square(65),
               accountName: Text(
-                'Programmer',
+                'Khaled',
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -24,7 +24,7 @@ class HomeDrawer extends StatelessWidget {
                 ),
               ),
               accountEmail: Text(
-                'programmer@etc.com',
+                'khaledmohd202@gmail.com',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,
@@ -46,37 +46,59 @@ class HomeDrawer extends StatelessWidget {
             title: 'Home',
             icon: CupertinoIcons.home,
           ),
+
           kDivider,
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.02,
+          ),
           const DrawerItem(
             title: 'My Profile',
             icon: CupertinoIcons.person,
           ),
           kDivider,
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.02,
+          ),
           const DrawerItem(
             title: 'My Cart',
             icon: CupertinoIcons.cart,
           ),
           kDivider,
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.02,
+          ),
           const DrawerItem(
             title: 'My Wishlist',
             icon: CupertinoIcons.heart,
           ),
           kDivider,
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.02,
+          ),
           const DrawerItem(
             title: 'My Orders',
             icon: CupertinoIcons.bag,
           ),
           kDivider,
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.02,
+          ),
           const DrawerItem(
             title: 'Settings',
             icon: CupertinoIcons.settings,
           ),
           kDivider,
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.02,
+          ),
           const DrawerItem(
             title: 'Logout',
             icon: CupertinoIcons.square_arrow_left,
           ),
           kDivider,
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.02,
+          ),
         ],
       ),
     );
